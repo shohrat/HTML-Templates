@@ -1,0 +1,14 @@
+/*
+* @author Shohrat Bayramklychev <shohrat84@gmail.com>
+* @version 1
+* @since 2018/07/10
+*/
+@font-face {
+font-family: "Roboto";
+src: url("Roboto.eot");
+src: url("Roboto.eot?#iefix")format("embedded-opentype"),
+url("Roboto.woff") format("woff"),
+url("Roboto.ttf") format("truetype");
+font-style: normal;
+font-weight: 400;
+}

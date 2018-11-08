@@ -1,0 +1,717 @@
+<!-- Created by Bayramklychev Shohrat -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Главная</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/tcal.css">
+    <!-- <link rel="stylesheet" href="fullpage/jquery.fullpage.min.css"> -->
+    <link rel='stylesheet' href='font-awesome-5.0.8/css/fontawesome-all.css'>
+    <script defer src="font-awesome-5.0.8/js/fontawesome-all.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/tcal.js"></script>
+    <script>
+
+    // ================add and remove full page function==============
+    function windowSize(){
+            if ($(window).width() <= '576'){
+             $(".col-top-menu").addClass('order-first');
+         }
+             else   {
+             $(".col-top-menu").removeClass('order-first');
+                }
+    }
+    $(window).on('load resize',windowSize);
+
+    //================/add and remove full page function==============
+    </script>
+    <!--
+    <script src="fullpage/jquery.fullpage.min.js"></script>    -->
+  </head>
+  <body>
+    <div id="main-wrapper">
+
+      <div id="top">
+
+        <div class="row justify-content-center container1">
+
+          <div class="col-xl-2 col-md-3 col-sm-4 col-6 top1">
+            <i class="fas fa-map-marker-alt gps-marker"></i>
+            <div class="top1-sel-box">
+              <select class="top1-sel">
+                <option>Владимир</option>
+                <option>Омск</option>
+                <option>Орёл</option>
+              </select>
+            </div>
+            <i class="fas fa-angle-down" id="sel-arrow"></i>
+          </div>
+          <div class="col-xl-8 col-md-7 col-sm-4  col-2 col-top-menu">
+
+            <nav class="navbar navbar-expand-xl">
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <i class="fas fa-bars"></i>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto top-menu">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#">Базы отдыха</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link" href="#">Вело</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Сноуборд и лыжи</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Активный отдых</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Экипировка</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Инструкторы</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">О нас</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Частые вопросы</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+          <div class="col-xl-2 col-md-2 col-sm-4  col-4">
+            <a class="btn btn-outline-light authorization" href="#"><i class="fas fa-user"></i> Войти</a>
+          </div>
+        </div>
+      </div>
+      <!-- Main banner -->
+      <div id="main-banner">
+
+        <div class="container1">
+
+          <div class="logo">
+            <img src="images/logo.png">
+            <span>
+              <h1>COMPANY LOGO</h1>
+              <div>АГРЕГАТОР ВАШЕГО ОТДЫХА</div>
+            </span>
+          </div>
+          <div class="consult-phone">
+            <div><i class="fas fa-phone-volume"></i>   Нужна консультация?</div>
+            <h1>+7 920 625 28-14</h1>
+          </div>
+          <!-- Search block -->
+          <div class="search-block-container">
+            <div class="search-block">
+
+              <div class="sblock">
+                <i class="fas fa-map-marker-alt"></i>
+                <div class="city-block">
+                  <select class="city">
+                    <option>Владимир</option>
+                    <option>Омск</option>
+                    <option>Орёл</option>
+                  </select>
+                </div>
+                <i class="fas fa-angle-down"></i>
+              </div>
+              <div class="sblock">
+                <input type="text" name="" class="tcal date" placeholder="с 21.03.2018">
+              </div>
+              <div class="sblock">
+                <i class="far fa-moon"></i>
+                <input type="text" name="" class="" placeholder="на 7 ночей">
+              </div>
+              <div class="sblock">
+                <i class="far fa-user"></i>
+                <input type="text" name="" class=""  placeholder="2 взрослых">
+              </div>
+              <div class="sblock">
+                <button class="search-btn">
+                <i class="fas fa-search"></i>
+                НАЙТИ БАЗУ
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- /Search block -->
+        </div>
+      </div>
+      <!-- /Main banner -->
+      <!-- Service block -->
+      <div class="service-block">
+
+        <div class="serv-block">
+          <div class="serv-block-txt">
+            <img src="images/serv-block-1-img.png">
+            <span>
+              Арендовать базу<br>
+              отдыха
+            </span>
+          </div>
+        </div>
+        <div class="serv-block">
+          <div class="serv-block-txt">
+            <img src="images/serv-block-2-img.png">
+            <span>
+              Велосипедные<br>
+              прогулки
+            </span>
+          </div>
+        </div>
+        <div class="serv-block">
+
+          <div class="serv-block-txt">
+            <img src="images/serv-block-3-img.png">
+            <span>
+              Сноуборд и<br>
+              лыжный спорт
+            </span>
+          </div>
+
+        </div>
+        <div class="serv-block">
+
+          <div class="serv-block-txt">
+            <img src="images/serv-block-4-img.png">
+            <span>
+              Активный отдых<br>
+              на природе
+            </span>
+          </div>
+        </div>
+        <div class="serv-block">
+          <div class="serv-block-txt">
+            <img src="images/serv-block-5-img.png">
+            <span>
+              Аренда<br>
+              экипировки
+            </span>
+          </div>
+        </div>
+      </div>
+      <!-- /Service block -->
+
+
+      <!-- Bazy block -->
+      <div class="bazy-block">
+
+        <h1>Популярные базы отдыха</h1>
+        <div class="container2">
+
+          <div class="bz-blocks">
+
+          <div class="bz-block">
+
+            <div class="bz-b1">
+              <img src="images/bazy/bz-img-1.jpg">
+              <div class="features">
+                <i class="fas fa-wifi"></i>
+                <i class="fas fa-utensils"></i>
+                <i class="far fa-heart"></i>
+                <i class="far fa-clock"></i>
+              </div>
+            </div>
+            <div class="bz-b2">
+
+              <h1>«Ладога»</h1>
+              <div class="marks">
+                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                <i class="fas fa-star-half"></i>
+                <span>Оценка: 4.3 из 5 (<a href="#">645 отзывов</a>)</span>
+              </div>
+              <div class="txt">
+                Диалектика рефлектирует принцип восприятия. Можно предположить, что дистинкция создает субъективный закон внешнего мира, хотя в официозе принято обратное.
+              </div>
+              <div class="options">
+                <button class="red-btn">от 36 750 ₽</button>
+                <span class="izbrannoe">
+                  <i class="far fa-heart"></i>
+                  В избранное
+                </span>
+                <span class="gps">
+                  <i class="fas fa-map-marker-alt"></i>
+                  На карте
+                </span>
+              </div>
+            </div>
+          </div>
+          <!--   -->
+          <div class="bz-block">
+
+            <div class="bz-b1">
+              <img src="images/bazy/bz-img-2.jpg">
+              <div class="features">
+                <i class="fas fa-wifi"></i>
+                <i class="fas fa-utensils"></i>
+                <i class="far fa-heart"></i>
+                <i class="far fa-clock"></i>
+              </div>
+            </div>
+            <div class="bz-b2">
+
+              <h1>«Аквилон»</h1>
+              <div class="marks">
+                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                <i class="fas fa-star-half"></i>
+                <span>Оценка: 4.3 из 5 (<a href="#">645 отзывов</a>)</span>
+              </div>
+              <div class="txt">
+                Диалектика рефлектирует принцип восприятия. Можно предположить, что дистинкция создает субъективный закон внешнего мира, хотя в официозе принято обратное.
+              </div>
+              <div class="options">
+                <button class="red-btn">от 36 750 ₽</button>
+                <span class="izbrannoe">
+                  <i class="far fa-heart"></i>
+                  В избранное
+                </span>
+                <span class="gps">
+                  <i class="fas fa-map-marker-alt"></i>
+                  На карте
+                </span>
+              </div>
+            </div>
+          </div>
+          <!--   -->
+          <div class="bz-block">
+
+            <div class="bz-b1">
+              <img src="images/bazy/bz-img-3.jpg">
+              <div class="features">
+                <i class="fas fa-wifi"></i>
+                <i class="fas fa-utensils"></i>
+                <i class="far fa-heart"></i>
+                <i class="far fa-clock"></i>
+              </div>
+            </div>
+            <div class="bz-b2">
+
+              <h1>«Альпийская деревня»</h1>
+              <div class="marks">
+                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                <i class="fas fa-star-half"></i>
+                <span>Оценка: 4.3 из 5 (<a href="#">645 отзывов</a>)</span>
+              </div>
+              <div class="txt">
+                Диалектика рефлектирует принцип восприятия. Можно предположить, что дистинкция создает субъективный закон внешнего мира, хотя в официозе принято обратное.
+              </div>
+              <div class="options">
+                <button class="red-btn">от 36 750 ₽</button>
+                <span class="izbrannoe">
+                  <i class="far fa-heart"></i>
+                  В избранное
+                </span>
+                <span class="gps">
+                  <i class="fas fa-map-marker-alt"></i>
+                  На карте
+                </span>
+              </div>
+            </div>
+          </div>
+          <!--   -->
+          <div class="bz-block">
+
+            <div class="bz-b1">
+              <img src="images/bazy/bz-img-4.jpg">
+              <div class="features">
+                <i class="fas fa-wifi"></i>
+                <i class="fas fa-utensils"></i>
+                <i class="far fa-heart"></i>
+                <i class="far fa-clock"></i>
+              </div>
+            </div>
+            <div class="bz-b2">
+
+              <h1>«Аэлита»</h1>
+              <div class="marks">
+                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                <i class="fas fa-star-half"></i>
+                <span>Оценка: 4.3 из 5 (<a href="#">645 отзывов</a>)</span>
+              </div>
+              <div class="txt">
+                Диалектика рефлектирует принцип восприятия. Можно предположить, что дистинкция создает субъективный закон внешнего мира, хотя в официозе принято обратное.
+              </div>
+              <div class="options">
+                <button class="red-btn">от 36 750 ₽</button>
+                <span class="izbrannoe">
+                  <i class="far fa-heart"></i>
+                  В избранное
+                </span>
+                <span class="gps">
+                  <i class="fas fa-map-marker-alt"></i>
+                  На карте
+                </span>
+              </div>
+            </div>
+          </div>
+          <!--   -->
+          <div class="bz-block">
+
+            <div class="bz-b1">
+              <img src="images/bazy/bz-img-5.jpg">
+              <div class="features">
+                <i class="fas fa-wifi"></i>
+                <i class="fas fa-utensils"></i>
+                <i class="far fa-heart"></i>
+                <i class="far fa-clock"></i>
+              </div>
+            </div>
+            <div class="bz-b2">
+
+              <h1>«Белая Вежа»</h1>
+              <div class="marks">
+                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                <i class="fas fa-star-half"></i>
+                <span>Оценка: 4.3 из 5 (<a href="#">645 отзывов</a>)</span>
+              </div>
+              <div class="txt">
+                Диалектика рефлектирует принцип восприятия. Можно предположить, что дистинкция создает субъективный закон внешнего мира, хотя в официозе принято обратное.
+              </div>
+              <div class="options">
+                <button class="red-btn">от 36 750 ₽</button>
+                <span class="izbrannoe">
+                  <i class="far fa-heart"></i>
+                  В избранное
+                </span>
+                <span class="gps">
+                  <i class="fas fa-map-marker-alt"></i>
+                  На карте
+                </span>
+              </div>
+            </div>
+          </div>
+
+        <!--   -->
+          <div class="bz-block">
+
+            <div class="bz-b1">
+              <img src="images/bazy/bz-img-6.jpg">
+              <div class="features">
+                <i class="fas fa-wifi"></i>
+                <i class="fas fa-utensils"></i>
+                <i class="far fa-heart"></i>
+                <i class="far fa-clock"></i>
+              </div>
+            </div>
+            <div class="bz-b2">
+
+              <h1>«Дымская дача»</h1>
+              <div class="marks">
+                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                <i class="fas fa-star-half"></i>
+                <span>Оценка: 4.3 из 5 (<a href="#">645 отзывов</a>)</span>
+              </div>
+              <div class="txt">
+                Диалектика рефлектирует принцип восприятия. Можно предположить, что дистинкция создает субъективный закон внешнего мира, хотя в официозе принято обратное.
+              </div>
+              <div class="options">
+                <button class="red-btn">от 36 750 ₽</button>
+                <span class="izbrannoe">
+                  <i class="far fa-heart"></i>
+                  В избранное
+                </span>
+                <span class="gps">
+                  <i class="fas fa-map-marker-alt"></i>
+                  На карте
+                </span>
+              </div>
+            </div>
+          </div>
+  <!--   -->
+</div>
+
+<a href="#" class="more-btn">БОЛЬШЕ ПРЕДЛОЖЕНИЙ</a>
+
+
+
+        </div>
+      </div>
+      <!-- /Bazy block -->
+
+
+<!-- Instruktory block -->
+<div class="instruktory-block">
+
+<img src="images/bike.png" class="bike">
+
+<div class="row container2">
+
+<div class="col-xl-5 col-lg-6 col-md-2"></div>
+
+
+<div class="col-xl-5 col-lg-4 col-md-10">
+<div class="txt">
+
+<span>
+<img src="images/checked-img.png"> <span>Хотите научиться кататься на маунтин-байке или сноуборде?
+</span>
+</span>
+
+<span>
+<img src="images/checked-img.png"><span>Хотите порхать как бабочка и жалить как пчела?</span>
+</span>
+
+<span>
+<img src="images/checked-img.png"><span>Хотите обтекать и быть водой?</span>
+</span>
+
+<button class="btn1">
+  <i class="fas fa-search"></i>  подберите инструктора для себя
+</button>
+
+
+</div>
+
+
+</div>
+
+
+<div class="col-xl-2"></div>
+
+</div>
+
+
+</div>
+<!-- /Instruktory block -->
+
+
+<!-- Instruktory -->
+<div class="instruktory">
+
+<div class="row justify-content-center container2">
+
+<h1>Наши инструкторы</h1>
+
+
+<div class="col-lg-3 col-xl-2 col-md-4 col-sm-5">
+<div class="desc-block">
+<img src="images/instr1.png">
+<div class="desc">
+<h1>Гришин</h1>
+<h2>Владислав</h2>
+<div>Тренер по фрирайду</div>
+<span>Опыт 12 лет</span>
+</div>
+
+</div>
+
+</div>
+
+
+<div class="col-lg-3 col-xl-2 col-md-4 col-sm-5">
+<div class="desc-block">
+<img src="images/instr2.png">
+<div class="desc">
+<h1>Понамарев</h1>
+<h2>Егор</h2>
+<div>ТИнструктор-саентолог</div>
+<span>Опыт 10 лет</span>
+</div>
+
+</div>
+
+</div>
+
+<div class="col-lg-3 col-xl-2 col-md-4 col-sm-5">
+<div class="desc-block">
+<img src="images/instr3.png">
+<div class="desc">
+<h1>Титов</h1>
+<h2>Тимур</h2>
+<div>Гуру маунтин-байка</div>
+<span>Опыт 23 года</span>
+</div>
+
+</div>
+</div>
+
+<div class="col-lg-3 col-xl-2 col-md-4 col-sm-5">
+<div class="desc-block">
+<img src="images/instr4.png">
+<div class="desc">
+<h1>Королёва</h1>
+<h2>Надежда</h2>
+<div>Тренер по йоге и пилатесу</div>
+<span>Опыт 3 года</span>
+</div>
+
+</div>
+</div>
+
+
+<div class="col-lg-3 col-xl-2 col-md-4 col-sm-5">
+<div class="desc-block">
+<img src="images/instr5.png">
+<div class="desc">
+<h1>Беломестнов</h1>
+<h2>Кирилл</h2>
+<div>Тренер по вэйкборду</div>
+<span>Опыт 3 года</span>
+</div>
+
+</div>
+</div>
+
+
+
+</div>
+<a href="#" class="more-btn">СМОТРЕТЬ ЕЩЁ</a>
+
+</div>
+<!-- /Instruktory -->
+
+
+<!-- Arenda snaryazhenia -->
+<div class="arenda-block">
+
+<img src="images/girl.png" alt="girl" class="girl">
+
+<div class="container2">
+
+<h1 class="arenda-h">АРЕНДА СНАРЯЖЕНИЯ</h1>
+
+
+<ul class="arenda-sp">
+
+<li>
+  <div><img src="images/arenda-img-1.png"></div>
+<span>Для катания <br>
+на лыжах</span>
+</li>
+
+<li>
+  <div><img src="images/arenda-img-2.png"></div>
+<span>Для катания<br>
+на сноуборде</span>
+</li>
+
+
+<li>
+ <div><img src="images/arenda-img-3.png"></div>
+<span>Для походов<br>
+и активного отдыха</span>
+</li>
+
+</ul>
+
+<div class="txt">
+<p>Язык образов решительно преобразует даосизм. Ощущение мира амбивалентно трансформирует закон внешнего мира. Моцзы, Сюнъцзы и другие считали, что закон внешнего мира индуцирует гедонизм, открывая новые горизонты. Априори, конфликт прост.</p>
+
+<p>
+Локаята трансформирует непредвиденный бабувизм. Аналогия дискредитирует дедуктивный метод. Единственной космической субстанцией Гумбольдт считал материю, наделенную внутренней активностью, несмотря на это сомнение создает напряженный конфликт.
+</p>
+
+</div>
+
+<button class="btn1"><i class="fas fa-search"></i> подберите снаряжение</button>
+
+</div>
+
+
+</div>
+<!-- /Arenda snaryazhenia -->
+
+
+<!-- Map -->
+<div class="map-block">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15406.620512738464!2d73.27345116850145!3d54.96945422916924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x43ab017076edcbf7%3A0x2bb3dd200acffa5f!2z0JzQtdCz0LAg0J7QvNGB0Lo!5e0!3m2!1sru!2s!4v1521989624694" width="" height="" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+</div>
+<!-- /Map -->
+
+<!-- footer -->
+
+<footer class="footer">
+
+<div class="row justify-content-around align-items-start container2">
+
+<div class="col-md-3 col-sm-6 col-12">
+  <img src="images/bycycle1.png" alt="bycycle">
+  <div class="footer-logo-text">COMPANY LOGO</div>
+  <span class="footer-logo-slogan">АГРЕГАТОР ВАШЕГО ОТДЫХА</span>
+  <div class="copyright">
+    © 2018 Базы отдыха, аренда <br>
+оборудования и экипировки
+  </div>
+
+<div class="social-icons">
+  <a href="#"><img src="images/facebook-icon.png"></a>
+  <a href="#"><img src="images/whatsup-icon.png"></a>
+  <a href="#"><img src="images/viber-icon.png"></a>
+  <a href="#"><img src="images/vk-icon.png"></a>
+  <a href="#"><img src="images/ok-icon.png"></a>
+  <a href="#"><img src="images/instagram-icon.png"></a>
+</div>
+
+</div>
+
+<div class="col-md-3 col-sm-6 col-12">
+
+<h1>О КОМПАНИИ</h1>
+
+
+<ul class="footer-menu">
+  <li><a href="#">Офисы продаж</a></li>
+  <li><a href="#">О нас</a></li>
+  <li><a href="#">Пресса о нас</a></li>
+  <li><a href="#">Отзывы о нас</a></li>
+  <li><a href="#">Наши партнёры</a></li>
+  <li><a href="#">Реквизиты</a></li>
+</ul>
+
+</div>
+
+
+
+<div class="cooperation col-md-3 col-sm-6 col-12">
+
+<img src="images/sberbank-icon.png">
+<img src="images/otkrytie-icon.png">
+<img src="images/skolkovo-icon.png">
+<img src="images/nz-icon.png">
+<img src="images/mir-icon.png">
+<img src="images/visa-icon.png">
+<img src="images/mastercard-icon.png">
+<img src="images/ata-icon.png">
+
+</div>
+
+<div class="col-md-3  col-sm-6  col-12 footer-block4">
+
+<div class="footer-phone-block">
+  <span><i class="fas fa-phone-volume"></i>&nbsp;&nbsp;Нужна консультация?</span>
+  <div>+7 920 625 28-14</div>
+</div>
+<br>
+<a href="#" class="store-link"><img src="images/app-store.png"></a>
+<br>
+<a href="#" class="store-link"><img src="images/play-market.png"></a>
+
+</div>
+
+</div>
+
+</footer>
+
+<!--/footer -->
+
+
+
+
+
+    </div>
+    <script type="text/javascript">
+    $(document).ready(function(){
+
+    });
+    </script>
+
+  </body>
+</html>

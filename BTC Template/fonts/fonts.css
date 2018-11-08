@@ -1,0 +1,69 @@
+	@font-face {
+			font-family: "Roboto";
+			src: url("Roboto.eot");
+			src: url("Roboto.eot?#iefix")format("embedded-opentype"),
+			url("Roboto.woff") format("woff"),
+			url("Roboto.ttf") format("truetype");
+			font-style: normal;
+			font-weight: 400;
+	}
+
+	@font-face {
+			font-family: "Roboto-bold";
+			src: url("Roboto-bold.eot");
+			src: url("Roboto-bold.eot?#iefix")format("embedded-opentype"),
+			url("Roboto-bold.woff") format("woff"),
+			url("Roboto-bold.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}
+
+	@font-face {
+			font-family: "Roboto-bold-italic";
+			src: url("Roboto-bold-italic.eot");
+			src: url("Roboto-bold-italic.eot?#iefix")format("embedded-opentype"),
+			url("Roboto-bold-italic.woff") format("woff"),
+			url("Roboto-bold-italic.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}
+
+	@font-face {
+			font-family: "Roboto-italic";
+			src: url("Roboto-italic.eot");
+			src: url("Roboto-italic.eot?#iefix")format("embedded-opentype"),
+			url("Roboto-italic.woff") format("woff"),
+			url("Roboto-italic.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}
+
+	@font-face {
+			font-family: "Roboto-light";
+			src: url("Roboto-light.eot");
+			src: url("Roboto-light.eot?#iefix")format("embedded-opentype"),
+			url("Roboto-light.woff") format("woff"),
+			url("Roboto-light.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}
+
+	@font-face {
+			font-family: "Assistant-Bold";
+			src: url("Assistant-Bold.eot");
+			src: url("Assistant-Bold.eot?#iefix")format("embedded-opentype"),
+			url("Assistant-Bold.woff") format("woff"),
+			url("Assistant-Bold.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}
+
+	@font-face {
+			font-family: "Assistant-SemiBold";
+			src: url("Assistant-SemiBold.eot");
+			src: url("Assistant-SemiBold.eot?#iefix")format("embedded-opentype"),
+			url("Assistant-SemiBold.woff") format("woff"),
+			url("Assistant-SemiBold.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}
