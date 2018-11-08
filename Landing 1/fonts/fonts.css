@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'Mont-ExtraLightDEMO';
+    src: local('Mont-ExtraLightDEMO'),
+    local('Mont-ExtraLightDEMO'),
+    url('Mont-ExtraLightDEMO.ttf') format('truetype'),
+    url('Mont-ExtraLightDEMO.eot') format('eot'),
+    url('Mont-ExtraLightDEMO.otf') format('otf'),
+    url('Mont-ExtraLightDEMO.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Mont-HeavyDEMO';
+    src: local('Mont-HeavyDEMO'),
+    local('Mont-HeavyDEMO'),
+    url('Mont-HeavyDEMO.ttf') format('truetype'),
+    url('Mont-HeavyDEMO.eot') format('eot'),
+    url('Mont-HeavyDEMO.otf') format('otf'),
+    url('Mont-HeavyDEMO.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'RobotoCondensed-Regular';
+    src: local('RobotoCondensed-Regular'),
+    local('RobotoCondensed-Regular'),
+    url('RobotoCondensed-Regular.ttf') format('truetype'),
+    url('RobotoCondensed-Regular.eot') format('eot'),
+    url('RobotoCondensed-Regular.otf') format('otf'),
+    url('RobotoCondensed-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
